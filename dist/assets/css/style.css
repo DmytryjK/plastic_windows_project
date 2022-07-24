@@ -933,6 +933,10 @@ textarea:focus {
   width: 30rem;
 }
 
+.balcon_icons img {
+  cursor: pointer;
+}
+
 .popup_calc_content #type1 {
   display: inline-block;
 }
@@ -1755,6 +1759,10 @@ textarea:focus {
   .popup_calc_content .big_img img {
     margin-bottom: 2rem;
     width: 25rem;
+  }
+
+  .balcon_icons_img img {
+    cursor: pointer;
   }
 
   .popup_calc_content #type1 {
