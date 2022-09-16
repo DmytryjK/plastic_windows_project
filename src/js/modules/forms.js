@@ -52,8 +52,9 @@ const forms = (state) => {
                 .finally(() => {
                     clearInputs();
                     setTimeout(() => {
+                        document.querySelector('.popup_calc_end').style.display = 'none';
                         statusMessage.remove();
-                    }, 5000);
+                    }, 3000);
                 })
 
         });
